@@ -14,9 +14,3 @@ def players_as_dictionaries(squads_list):
         }
         squad_as_dict.append(player_dict)
     return squad_as_dict
-
-
-if __name__ == '__main__':
-    from squads_data import SQUADS_DATA
-    squad_dict = players_as_dictionaries(SQUADS_DATA)
-    import ipdb; ipdb.set_trace()
